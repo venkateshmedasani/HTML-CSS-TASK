@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<h2 style="text-align: center;">User Registration Form</h2>
+
+<table align="center">
+  <tr>
+    <td align="right"><label for="full_name">Full Name:</label></td>
+    <td><input type="text" id="full_name" name="full_name" required></td>
+  </tr>
+  <tr>
+    <td align="right"><label for="username">Username:</label></td>
+    <td><input type="text" id="username" name="username" required></td>
+  </tr>
+  <tr>
+    <td align="right"><label for="password">Password:</label></td>
+    <td><input type="password" id="password" name="password" required></td>
+  </tr>
+  <tr>
+    <td align="right"><label for="re_password">Re-enter Password:</label></td>
+    <td><input type="password" id="re_password" name="re_password" required></td>
+  </tr>
+  <tr>
+    <td align="right"><label for="address">Address:</label></td>
+    <td><textarea id="address" name="address" rows="4" required></textarea></td>
+  </tr>
+  <tr>
+    <td align="right"><label for="age">Age:</label></td>
+    <td><input type="number" id="age" name="age" required></td>
+  </tr>
+  <tr>
+    <td align="right"><label for="gender">Gender:</label></td>
+    <td>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </td>
+  </tr>
+</table>
+
+<div style="text-align: center;">
+  <input type="submit" value="Save">
+</div>
+
+</body>
+</html>
